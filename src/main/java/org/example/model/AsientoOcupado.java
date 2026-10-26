@@ -1,0 +1,7 @@
+package org.example.model;
+
+public class AsientoOcupado extends RuntimeException {
+    public AsientoOcupado(String message) {
+        super(message);
+    }
+}
